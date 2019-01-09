@@ -14,7 +14,7 @@ public class LoginPageTest {
 	  driver.get("http://10.67.89.42/Common/Login.aspx");
 	  Thread.sleep(3000);
 	  String pageTitle=driver.getTitle();
-	  System.out.println("ti: "+pageTitle);
+	  System.out.println("title: "+pageTitle);
 	  Assert.assertEquals(pageTitle,"In Essence Bank");
 	//  driver.quit();
   }
